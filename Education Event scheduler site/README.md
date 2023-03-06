@@ -1,0 +1,1 @@
+"This is an event registration website where the user can register from our website and access and schedule the according event he/she wants to participate based on his/her wish and event win prize we have done various custom event to participate in the event " 

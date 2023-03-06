@@ -1,0 +1,80 @@
+/* Add properties to the contents of body*/
+body {
+    font-family: "Raleway", sans-serif;
+    background-image: url("home.webp");
+    background-repeat:no-repeat;
+    background-size: 100%;
+  }
+
+  /* Add properties to all h1 tags*/
+  h1 {
+    text-align: center;
+    margin: 20px auto;
+    color: #a642e0;
+    background-color: #d6b2b2;
+    width: 300px;
+  }
+
+  /* Add properties to the contents of form*/
+  form {
+    width: 50%;
+    margin: auto;
+  }
+  fieldset {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin: 20px auto;
+    box-shadow: 0 0 5px #e26565;
+    background-color: #eee;
+  }
+  label {
+    display: block;
+    
+    margin-bottom: 5px;
+  }
+  input[type="text"],input[type="email"],select{
+    width: calc(100% - 20px);
+    height: 20px;
+    padding: 5px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+  }
+  button.bu {
+    width: 100%;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin: auto !important;
+    height: 40px;
+    border-radius: 10px;
+    background-color: #eee;
+  }
+  #events {
+    height: 35px;
+  }
+  .container {
+    width: 70px;
+  }
+
+/* Top bar properties*/  
+.topnav {
+    background-color: #474646;
+    overflow: hidden;
+}
+a {
+    color:#fff;
+    text-decoration:#474646;
+    background-color: #474646;
+
+}
+.topbar {
+    float:left;
+    top:0%;
+    left:auto;
+    padding: 14px 16px;
+    font-size: 18px;
+    color:#fff;
+    text-align: center;
+    background-color: #474646;
+  }
